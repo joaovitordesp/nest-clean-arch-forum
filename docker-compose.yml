@@ -7,8 +7,8 @@ services:
     ports:
       - 5432:5432
     environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: docker
+      POSTGRES_USER: jvsempren
+      POSTGRES_PASSWORD: 123456
       POSTGRES_DB: nest-clean
       PGDATA: /data/postgres
     volumes:
